@@ -1,0 +1,2 @@
+libMoltenVK.dylib built from https://github.com/KhronosGroup/MoltenVK commit aab7c01a17f725b3bd32684f6f8155a480d1e993
+SPIRV-Cross replaced with https://github.com/KhronosGroup/SPIRV-Cross commit 9acb9ec31f5a8ef80ea6b994bb77be787b08d3d1
