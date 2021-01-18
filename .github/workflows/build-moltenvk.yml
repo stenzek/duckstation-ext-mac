@@ -33,7 +33,7 @@ jobs:
           echo 9acb9ec31f5a8ef80ea6b994bb77be787b08d3d1 > ExternalRevisions/SPIRV-Cross_repo_revision
           ./fetchDependencies --macos
           xcodebuild build -quiet -project MoltenVKPackaging.xcodeproj -scheme "MoltenVK Package (macOS only)" -configuration "Release"
-          tar zcvf ../MoltenVK-Package.tar.gz Package/Latest
+          tar zcvf ../MoltenVK-Package.tar.gz Package/Latest/*
           ls
           cd ..
           ls
